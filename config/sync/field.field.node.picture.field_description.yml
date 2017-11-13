@@ -1,0 +1,21 @@
+uuid: 494d4c45-e571-46e6-aae0-2b0608981ea3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_description
+    - node.type.picture
+  module:
+    - text
+id: node.picture.field_description
+field_name: field_description
+entity_type: node
+bundle: picture
+label: Description
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

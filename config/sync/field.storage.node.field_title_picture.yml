@@ -1,0 +1,20 @@
+uuid: 5db8c948-4037-4bf0-a64d-4d40100d3572
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_title_picture
+field_name: field_title_picture
+entity_type: node
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

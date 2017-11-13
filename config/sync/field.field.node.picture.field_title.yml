@@ -1,0 +1,21 @@
+uuid: b1508190-bb9a-457e-852f-fa70d253efe7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_title
+    - node.type.picture
+  module:
+    - text
+id: node.picture.field_title
+field_name: field_title
+entity_type: node
+bundle: picture
+label: Title
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

@@ -1,0 +1,33 @@
+uuid: b2a3d087-249a-4ad0-b67e-5ec79adb4d20
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.pictures
+  module:
+    - node
+    - views
+  theme:
+    - bartik
+id: views_block__pictures_block_1
+theme: bartik
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:pictures-block_1'
+settings:
+  id: 'views_block:pictures-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      album: album
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

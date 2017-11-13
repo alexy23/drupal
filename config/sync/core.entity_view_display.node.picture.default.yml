@@ -1,0 +1,56 @@
+uuid: aeddcdc1-532c-4624-a2a2-adeb72367dcc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.picture.field_category
+    - field.field.node.picture.field_description
+    - field.field.node.picture.field_picture_image
+    - field.field.node.picture.field_title
+    - node.type.picture
+  module:
+    - image
+    - text
+    - user
+id: node.picture.default
+targetEntityType: node
+bundle: picture
+mode: default
+content:
+  field_category:
+    weight: 5
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_description:
+    weight: 4
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_picture_image:
+    weight: 3
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_title:
+    weight: 0
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  links:
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }
