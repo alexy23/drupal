@@ -1,0 +1,14 @@
+uuid: c1d50d9a-5ea5-47fb-8646-9fa8a525f436
+langcode: en
+status: true
+dependencies: {  }
+name: slideshow
+label: Slideshow
+effects:
+  39a05105-526d-4382-838c-5d70e9b2e724:
+    uuid: 39a05105-526d-4382-838c-5d70e9b2e724
+    id: image_resize
+    weight: 1
+    data:
+      width: 512
+      height: 300

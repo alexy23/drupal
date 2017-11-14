@@ -1,0 +1,7 @@
+uuid: 747cf1a5-04ce-427c-a340-4950c8693320
+langcode: en
+status: false
+dependencies: {  }
+formId: node_album_form
+captchaType: default
+label: null

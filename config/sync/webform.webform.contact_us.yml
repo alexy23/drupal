@@ -1,4 +1,4 @@
-uuid: 4877a4f5-cd98-45f6-a214-66f4bed2dc66
+uuid: 713bdc5d-0e0c-4cbb-9756-110b11e362d8
 langcode: en
 status: open
 dependencies: {  }
@@ -10,7 +10,7 @@ id: contact_us
 title: contact-us
 description: ''
 category: ''
-elements: "email:\n  '#type': email\n  '#title': Email\n  '#required': true\n  '#required_error': 'Your Email'\nsubject:\n  '#type': textfield\n  '#title': Subject\n  '#required': true\nmessage:\n  '#type': textarea\n  '#title': Message\ncaptcha:\n  '#type': captcha\n"
+elements: "email:\n  '#type': email\n  '#title': Email\n  '#required': true\nsubject:\n  '#type': textfield\n  '#title': Subject\nmessage:\n  '#type': textarea\n  '#title': Message\ncaptcha:\n  '#type': captcha\n  '#captcha_type': image_captcha/Image\nactions:\n  '#type': webform_actions\n  '#title': 'Submit button(s)'\n"
 css: ''
 javascript: ''
 settings:

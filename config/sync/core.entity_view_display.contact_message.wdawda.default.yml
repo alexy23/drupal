@@ -1,0 +1,28 @@
+uuid: a8246e33-88f2-4c40-b42d-21f984d3ff03
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.wdawda
+    - field.field.contact_message.wdawda.field_e_mail
+id: contact_message.wdawda.default
+targetEntityType: contact_message
+bundle: wdawda
+mode: default
+content:
+  field_e_mail:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  message:
+    type: string
+    weight: 0
+    label: above
+    region: content
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+hidden: {  }

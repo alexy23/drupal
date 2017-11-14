@@ -1,0 +1,12 @@
+uuid: ae7f4f8f-c6b7-48a4-a9fb-11f1de9c3a05
+langcode: en
+status: true
+dependencies: {  }
+id: wdawda
+label: wdawda
+recipients:
+  - sdee@egseg.ru
+reply: ''
+weight: 0
+message: ''
+redirect: ''
